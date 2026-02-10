@@ -16,16 +16,28 @@ int main() {
 		std::cout << "3. Editar rotors" << std::endl;
 		std::cout << "4. Sortir" << std::endl;
 		std::cout << "Elige una opcion: " << std::endl;
-
+		
+		std::string mensajeCifrar;
 		int opcion_menu;
 		std::cin >> opcion_menu;
 		std::cin.ignore();  // Limpiar el buffer para getline
 
 		switch (opcion_menu) {
-		case 1:  // Cifrar missatge
+		case 1:  // Cifrar mensaje
 
 			std::cout << "Funcionalidad de cifrado no implementada aún." << std::endl;
-			break;
+
+			std::cout << "Introduce el mensaje a cifrar" << std::endl;
+			std::cin >> mensajeCifrar;
+
+			while (mensajeCifrar == "")
+			{
+				std::cout << "Error el mensaje no puede estar vacio";
+				break;
+			}
+
+			
+		
 
 		case 2:  // Descifrar mensaje
 
