@@ -1,6 +1,5 @@
 #pragma once
 
-#pragma once
 
 inline bool esLetraMayuscula(char c) {
 	return c >= 'A' && c <= 'Z';

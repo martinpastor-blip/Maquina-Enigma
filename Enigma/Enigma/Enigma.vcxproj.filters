@@ -18,12 +18,18 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="descifrar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="comprobaciones.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="rotor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="descifrar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

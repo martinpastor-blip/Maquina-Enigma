@@ -4,6 +4,7 @@
 
 #include "comprobaciones.h"
 #include "rotor.h"
+#include "descifrar.h"
 
 
 
@@ -11,12 +12,12 @@ int main() {
 	while (true) {  // Bucle infinito hasta que se elija salir
 		std::cout << "ENIGMA:" << std::endl;
 		std::cout << "-------------------------------" << std::endl;
-		std::cout << "1. Xifrar missatge" << std::endl;
-		std::cout << "2. Desxifrar missatge" << std::endl;
-		std::cout << "3. Editar rotors" << std::endl;
+		std::cout << "1. Cifrar missatge" << std::endl;
+		std::cout << "2. DesCifrar missatge" << std::endl;
+		std::cout << "3. Editar rotores" << std::endl;
 		std::cout << "4. Sortir" << std::endl;
 		std::cout << "Elige una opcion: " << std::endl;
-		
+
 		std::string mensajeCifrar;
 		int opcion_menu;
 		std::cin >> opcion_menu;
@@ -36,8 +37,8 @@ int main() {
 				break;
 			}
 
-			
-		
+
+
 
 		case 2:  // Descifrar mensaje
 
