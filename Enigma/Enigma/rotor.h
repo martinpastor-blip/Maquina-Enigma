@@ -1,5 +1,9 @@
 #pragma once
 
+#include <iostream>
+#include <fstream>
+#include <string>
+
 #include "comprobaciones.h"  
 
 // Esta función abre un archivo, lee su contenido como un string, y valida que sea un rotor correcto.
@@ -12,17 +16,30 @@ inline std::string leerRotor(std::string nombre_archivo) {  // 'nombre_archivo' 
         return "";  // Retornar string vacío si falla.
     }
 
-    std::string contenido_rotor;  // 'contenido_rotor' almacenará el contenido leído del archivo.
-    std::getline(archivo_rotor, contenido_rotor);  // Leer una línea completa del archivo.
+    std::string cableado_rotor;  // 'cableado_rotor' almacenará el contenido leído del archivo.
+    std::getline(archivo_rotor, cableado_rotor);  // Leer una línea completa del archivo.
+    
+    std::string linea_notch;
+    std::getline(archivo_rotor, linea_notch);
+    
+    char notch_leida;
+
+    if (linea_notch.empty() || linea_notch.length() != 1 || !esLetraMayuscula(linea_notch[0])) {
+        notch_leida = 'Z';
+    }
+    else {
+        notch_leida = linea_notch[0];
+    }
+
     archivo_rotor.close();  // Cerrar el archivo después de leer.
 
     // Validar que el contenido sea un rotor válido (usando la función del header).
-    if (!esRotorValido(contenido_rotor)) {
+    if (!esRotorValido(cableado_rotor)) {
         std::cerr << "Error: El rotor en " << nombre_archivo << " no es válido (debe ser 26 letras mayúsculas únicas)." << std::endl;
         return "";  // Retornar string vacío si no es válido.
     }
 
-    return contenido_rotor;  // Retornar el rotor válido.
+    return cableado_rotor + "|" + notch_leida;  // Retornar el rotor válido.
 }
 
 // Esta función genera un string que representa el "cableado inverso" del rotor,

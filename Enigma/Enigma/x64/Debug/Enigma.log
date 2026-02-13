@@ -1,1 +1,63 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(439,5): error MSB8020: No se pueden encontrar las herramientas de compilación para v143 (Conjunto de herramientas de la plataforma = 'v143'). Para compilar con las herramientas de compilación v143, instale las herramientas de compilación v143. También puede actualizar a las herramientas actuales de Visual Studio. Para ello, seleccione el menú Proyecto o haga clic con el botón secundario en la solución y, a continuación, seleccione "Actualizar solución".
+﻿  descifrar.cpp
+C:\Users\JosepJoelGuzmanCarba\Documents\GitHub\Maquina-Enigma\Enigma\Enigma\rotor.h(7,19): error C2079: 'archivo_rotor' uses undefined class 'std::basic_ifstream<char,std::char_traits<char>>'
+  (compiling source file 'descifrar.cpp')
+  
+C:\Users\JosepJoelGuzmanCarba\Documents\GitHub\Maquina-Enigma\Enigma\Enigma\rotor.h(7,32): error C2440: 'initializing': cannot convert from 'std::string' to 'int'
+  (compiling source file 'descifrar.cpp')
+  C:\Users\JosepJoelGuzmanCarba\Documents\GitHub\Maquina-Enigma\Enigma\Enigma\rotor.h(7,32):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+C:\Users\JosepJoelGuzmanCarba\Documents\GitHub\Maquina-Enigma\Enigma\Enigma\rotor.h(16,10): error C2672: 'std::getline': no matching overloaded function found
+  (compiling source file 'descifrar.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(82,32):
+  could be 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)'
+  	C:\Users\JosepJoelGuzmanCarba\Documents\GitHub\Maquina-Enigma\Enigma\Enigma\rotor.h(16,10):
+  	'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'int'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(75,32):
+  or       'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)'
+  	C:\Users\JosepJoelGuzmanCarba\Documents\GitHub\Maquina-Enigma\Enigma\Enigma\rotor.h(16,10):
+  	'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': expects 3 arguments - 2 provided
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(68,32):
+  or       'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)'
+  	C:\Users\JosepJoelGuzmanCarba\Documents\GitHub\Maquina-Enigma\Enigma\Enigma\rotor.h(16,10):
+  	'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'int'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(25,32):
+  or       'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)'
+  	C:\Users\JosepJoelGuzmanCarba\Documents\GitHub\Maquina-Enigma\Enigma\Enigma\rotor.h(16,10):
+  	'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': expects 3 arguments - 2 provided
+  
+C:\Users\JosepJoelGuzmanCarba\Documents\GitHub\Maquina-Enigma\Enigma\Enigma\rotor.h(19,10): error C2672: 'std::getline': no matching overloaded function found
+  (compiling source file 'descifrar.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(82,32):
+  could be 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)'
+  	C:\Users\JosepJoelGuzmanCarba\Documents\GitHub\Maquina-Enigma\Enigma\Enigma\rotor.h(19,10):
+  	'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'int'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(75,32):
+  or       'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)'
+  	C:\Users\JosepJoelGuzmanCarba\Documents\GitHub\Maquina-Enigma\Enigma\Enigma\rotor.h(19,10):
+  	'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': expects 3 arguments - 2 provided
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(68,32):
+  or       'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)'
+  	C:\Users\JosepJoelGuzmanCarba\Documents\GitHub\Maquina-Enigma\Enigma\Enigma\rotor.h(19,10):
+  	'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'int'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(25,32):
+  or       'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)'
+  	C:\Users\JosepJoelGuzmanCarba\Documents\GitHub\Maquina-Enigma\Enigma\Enigma\rotor.h(19,10):
+  	'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': expects 3 arguments - 2 provided
+  
+C:\Users\JosepJoelGuzmanCarba\Documents\GitHub\Maquina-Enigma\Enigma\Enigma\descifrar.cpp(15,6): error C2601: 'descifrar': local function definitions are illegal
+  C:\Users\JosepJoelGuzmanCarba\Documents\GitHub\Maquina-Enigma\Enigma\Enigma\rotor.h(58,44):
+  this line contains a '{' which has not yet been matched
+  
+C:\Users\JosepJoelGuzmanCarba\Documents\GitHub\Maquina-Enigma\Enigma\Enigma\rotor.h(58,44): error C1075: '{': no matching token found
+  (compiling source file 'descifrar.cpp')
+  
+  main.cpp
+C:\Users\JosepJoelGuzmanCarba\Documents\GitHub\Maquina-Enigma\Enigma\Enigma\main.cpp(11,5): error C2601: 'main': local function definitions are illegal
+  C:\Users\JosepJoelGuzmanCarba\Documents\GitHub\Maquina-Enigma\Enigma\Enigma\rotor.h(58,44):
+  this line contains a '{' which has not yet been matched
+  
+C:\Users\JosepJoelGuzmanCarba\Documents\GitHub\Maquina-Enigma\Enigma\Enigma\rotor.h(58,44): error C1075: '{': no matching token found
+  (compiling source file 'main.cpp')
+  
+  Generating Code...

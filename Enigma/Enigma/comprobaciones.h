@@ -18,7 +18,7 @@ bool esRotorValido(std::string rotor) {
 	bool letras_vistas[26] = { false };
 
 	// Recorrer cada carácter del rotor para validar.
-	for (size_t indice_caracter = 0; indice_caracter < rotor.length(); ++indice_caracter) {
+	for (int indice_caracter = 0; indice_caracter < rotor.length(); ++indice_caracter) {
 		char caracter_rotor = rotor[indice_caracter];  // 'caracter_rotor' representa la letra actual del rotor que se está verificando.
 
 		// Verificar que el carácter sea una letra mayúscula (usando la función del header).

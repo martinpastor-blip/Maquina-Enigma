@@ -37,9 +37,6 @@ int main() {
 				break;
 			}
 
-
-
-
 		case 2:  // Descifrar mensaje
 
 		{
@@ -68,7 +65,7 @@ int main() {
 			int indice_posicion_segundo = posicion_segundo_rotor[0] - 'A';
 			int indice_posicion_tercero = posicion_tercer_rotor[0] - 'A';
 
-			// descifrar(indice_posicion_primero, indice_posicion_segundo, indice_posicion_tercero);
+			descifrar(indice_posicion_primero, indice_posicion_segundo, indice_posicion_tercero);
 		}
 		break;
 
