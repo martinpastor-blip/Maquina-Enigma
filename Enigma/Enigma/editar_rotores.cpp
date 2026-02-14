@@ -13,17 +13,18 @@ void editar_rotor() {
 
     int rotor_num;
     std::cin >> rotor_num;
+    std::cin.ignore(1000, '\n'); // Limpia el buffer para que getline funcione correctamente
     
-
+    if (rotor_num == 4) return;
     if (rotor_num < 1 || rotor_num > 3) {
         std::cout << "[ERROR] Opcion invalida." << std::endl;
         return;
     }
 
     std::string nombre_archivo;
-    if (rotor_num == 1) nombre_archivo = "rotor1.txt";
-    else if (rotor_num == 2) nombre_archivo = "rotor2.txt";
-    else nombre_archivo = "rotor3.txt";
+    if (rotor_num == 1) nombre_archivo = "Rotor1.txt";
+    else if (rotor_num == 2) nombre_archivo = "Rotor2.txt";
+    else nombre_archivo = "Rotor3.txt";
 
     std::cout << "Nuevo cableado (26 letras A-Z únicas): ";
     std::string nuevo_cableado;

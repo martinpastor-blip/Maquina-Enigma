@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 #include <string>
 
 #include "rotor.h"
@@ -17,32 +18,57 @@ void descifrar(int indice_posicion_primero,
 	int indice_posicion_tercero) {
 
 	//  Lee los archivos de rotor
-	std::string rotor_primero = leerRotor("rotor1.txt");
-	std::string rotor_segundo = leerRotor("rotor2.txt");
-	std::string rotor_tercero = leerRotor("rotor3.txt");
+	std::string primer_rotor = leerRotor("Rotor1.txt");
+	std::string segundo_rotor = leerRotor("Rotor2.txt");
+	std::string tercer_rotor = leerRotor("Rotor3.txt");
 
 	// Si algún rotor no se pudo leer correctamente, se cancela el proceso
-	if (rotor_primero.empty() || rotor_segundo.empty() || rotor_tercero.empty()) {
+	if (primer_rotor.empty() || segundo_rotor.empty() || tercer_rotor.empty()) {
 		std::cout << "Error al cargar los rotors." << std::endl;
 		return;
 	}
 
 	// Estos rotores se usan para hacer el proceso contrario al cifrado y así recuperar el mensaje original.
-	std::string inverso_rotor_primero = crearInverso(rotor_primero);
-	std::string inverso_rotor_segundo = crearInverso(rotor_segundo);
-	std::string inverso_rotor_tercero = crearInverso(rotor_tercero);
+	std::string inverso_rotor_primero = crearInverso(primer_rotor);
+	std::string inverso_rotor_segundo = crearInverso(segundo_rotor);
+	std::string inverso_rotor_tercero = crearInverso(tercer_rotor);
 
-	// Leer el mensaje cifrado
-	std::string mensaje_cifrado;
-	std::cout << "Ingresa el mensaje cifrado: ";
-	std::getline(std::cin, mensaje_cifrado);
+	std::string mensaje_cifrado_procesado;
+	std::ifstream archivo_entrada("Cifrado.txt");
+	if (archivo_entrada.is_open()) {
+	
+		std::string linea;
+		while (std::getline(archivo_entrada, linea)) {
+		
+			for (int indice_caracter = 0; indice_caracter < linea.length(); ++indice_caracter) {
+				char caracter_en_linea = linea[indice_caracter];
+				if (caracter_en_linea >= 'A' && caracter_en_linea <= 'Z') {
+				
+					mensaje_cifrado_procesado += caracter_en_linea;
+				
+				}
+			
+			}
+		
+		
+		}
+		archivo_entrada.close();
+	
+	}
+	else {
+	
+		std::cout << "[ERROR] No se pudo abrir Cifrado.txt" << std::endl;  
+		return;
+
+	}
+
 
 	// Se convierte todo a mayúsculas y se eliminan los caracteres que no sean letras entre A y Z.
 	std::string mensaje_procesado;
-	int longitud_cifrado = mensaje_cifrado.length();
+	int longitud_cifrado = mensaje_cifrado_procesado.length();
 
 	for (int i = 0; i < longitud_cifrado; i++) {
-		char letra = toUpper(mensaje_cifrado[i]);
+		char letra = toUpper(mensaje_cifrado_procesado[i]);
 		if (letra >= 'A' && letra <= 'Z') {
 			mensaje_procesado += letra;
 		}
@@ -85,23 +111,18 @@ void descifrar(int indice_posicion_primero,
 		char letra_descifrada = 'A' + salida1;
 		mensaje_descifrado += letra_descifrada;
 
-		// Agrupar en bloques de 5
-		contador_grupo++;
-		if (contador_grupo % 5 == 0) {
-			mensaje_descifrado += ' ';
-		}
+
 	}
 
 	// Proceso de guardado del archivo descifrado.txt
-	std::ofstream archivo("desxifrat.txt");
+	std::ofstream archivo("descifrado.txt");
 	if (archivo.is_open()) {
 
 		archivo << mensaje_descifrado;
 		archivo.close();
-		std::cout << "[OK] Mensaje descifrado a \"desxifrat.txt\" (" << mensaje_descifrado.length() << " letras)" << std::endl;
+		std::cout << "[OK] Mensaje descifrado a \"descifrado.txt\" (" << mensaje_descifrado.length() << " letras)" << std::endl;
 
 	}
 
-	// Muestra el resultado
-	std::cout << "Mensaje descifrado: " << mensaje_descifrado << std::endl;
+	
 }

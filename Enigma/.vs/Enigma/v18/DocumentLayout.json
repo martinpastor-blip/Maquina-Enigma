@@ -15,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\editar_rotores.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\joelg\\OneDrive\\Documentos\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\descifrar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\descifrar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\joelg\\OneDrive\\Documentos\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\comprobaciones.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\comprobaciones.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\joelg\\OneDrive\\Documentos\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\editar_rotores.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -27,8 +27,8 @@
       "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\rotor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\joelg\\OneDrive\\Documentos\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\comprobaciones.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\comprobaciones.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\joelg\\OneDrive\\Documentos\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\descifrar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\descifrar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "Enigma\\main.cpp",
               "ToolTip": "C:\\Users\\joelg\\OneDrive\\Documentos\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\main.cpp",
               "RelativeToolTip": "Enigma\\main.cpp",
-              "ViewState": "AgIAADcAAAAAAAAAAAAAAE0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-12T12:46:21.56Z",
               "IsPinned": true,
@@ -62,7 +62,7 @@
               "RelativeDocumentMoniker": "Enigma\\editar_rotores.cpp",
               "ToolTip": "C:\\Users\\joelg\\OneDrive\\Documentos\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\editar_rotores.cpp",
               "RelativeToolTip": "Enigma\\editar_rotores.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-14T00:40:48.711Z",
               "EditorCaption": ""
@@ -75,7 +75,7 @@
               "RelativeDocumentMoniker": "Enigma\\descifrar.cpp",
               "ToolTip": "C:\\Users\\joelg\\OneDrive\\Documentos\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\descifrar.cpp",
               "RelativeToolTip": "Enigma\\descifrar.cpp",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAEcAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-14T00:24:07.947Z",
               "EditorCaption": ""
@@ -88,20 +88,20 @@
               "RelativeDocumentMoniker": "Enigma\\editar_rotores.h",
               "ToolTip": "C:\\Users\\joelg\\OneDrive\\Documentos\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\editar_rotores.h",
               "RelativeToolTip": "Enigma\\editar_rotores.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-02-14T00:40:29.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "descifrar.h",
               "DocumentMoniker": "C:\\Users\\joelg\\OneDrive\\Documentos\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\descifrar.h",
               "RelativeDocumentMoniker": "Enigma\\descifrar.h",
               "ToolTip": "C:\\Users\\joelg\\OneDrive\\Documentos\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\descifrar.h",
               "RelativeToolTip": "Enigma\\descifrar.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-02-14T00:38:10.434Z",
               "EditorCaption": ""
@@ -114,21 +114,23 @@
               "RelativeDocumentMoniker": "Enigma\\rotor.h",
               "ToolTip": "C:\\Users\\joelg\\OneDrive\\Documentos\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\rotor.h",
               "RelativeToolTip": "Enigma\\rotor.h",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAACUAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-12T12:46:21.457Z"
+              "WhenOpened": "2026-02-12T12:46:21.457Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "comprobaciones.h",
               "DocumentMoniker": "C:\\Users\\joelg\\OneDrive\\Documentos\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\comprobaciones.h",
               "RelativeDocumentMoniker": "Enigma\\comprobaciones.h",
               "ToolTip": "C:\\Users\\joelg\\OneDrive\\Documentos\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\comprobaciones.h",
               "RelativeToolTip": "Enigma\\comprobaciones.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-12T12:46:21.559Z"
+              "WhenOpened": "2026-02-12T12:46:21.559Z",
+              "EditorCaption": ""
             }
           ]
         }

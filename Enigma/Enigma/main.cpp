@@ -22,7 +22,7 @@ int main() {
 		std::string mensajeCifrar;
 		int opcion;
 		std::cin >> opcion;
-
+		std::cin.ignore(1000, '\n'); // Limpia el buffer para que getline funcione correctamente
 
 		switch (opcion) {
 		case 1:  // Cifrar mensaje
@@ -79,7 +79,6 @@ int main() {
 			break;
 
 		}
-
 
 		case 4:  // Saliendo
 			std::cout << "Saliendo..." << std::endl;
