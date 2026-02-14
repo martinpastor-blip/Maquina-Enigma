@@ -19,11 +19,11 @@ int main() {
 		std::cout << "Elige una opcion: " << std::endl;
 
 		std::string mensajeCifrar;
-		int opcion_menu;
-		std::cin >> opcion_menu;
-		std::cin.ignore();  // Limpiar el buffer para getline
+		int opcion;
+		std::cin >> opcion;
 
-		switch (opcion_menu) {
+
+		switch (opcion) {
 		case 1:  // Cifrar mensaje
 
 			std::cout << "Funcionalidad de cifrado no implementada aún." << std::endl;
@@ -36,6 +36,8 @@ int main() {
 				std::cout << "Error el mensaje no puede estar vacio";
 				break;
 			}
+
+			break;
 
 		case 2:  // Descifrar mensaje
 

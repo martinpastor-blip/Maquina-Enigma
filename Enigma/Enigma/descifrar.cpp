@@ -60,7 +60,7 @@ void descifrar(int indice_posicion_primero,
 		indice_posicion_primero = (indice_posicion_primero + 1) % 26;
 
 		// Cuando el primer rotor llega a una posición concreta hace avanzar el segundo rotor		
-		    if (indice_posicion_primero == ('Q' - 'A')) {
+		if (indice_posicion_primero == ('Q' - 'A')) {
 			indice_posicion_segundo = (indice_posicion_segundo + 1) % 26;
 
 			// Si el segundo rotor llega a su posición notch, avanza el tercer rotor
@@ -90,6 +90,16 @@ void descifrar(int indice_posicion_primero,
 		if (contador_grupo % 5 == 0) {
 			mensaje_descifrado += ' ';
 		}
+	}
+
+	// Proceso de guardado del archivo descifrado.txt
+	std::ofstream archivo("desxifrat.txt");
+	if (archivo.is_open()) {
+
+		archivo << mensaje_descifrado;
+		archivo.close();
+		std::cout << "[OK] Missatge desxifrat a \"desxifrat.txt\" (" << mensaje_descifrado.length() << " lletres)" << std::endl;
+
 	}
 
 	// Muestra el resultado
