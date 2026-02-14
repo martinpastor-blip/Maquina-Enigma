@@ -21,6 +21,9 @@
     <ClCompile Include="descifrar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="editar_rotores.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="comprobaciones.h">
@@ -30,6 +33,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="descifrar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="editar_rotores.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

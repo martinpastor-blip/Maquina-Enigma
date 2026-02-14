@@ -69,7 +69,7 @@ void descifrar(int indice_posicion_primero,
 			}
 		}
 
-		// Paso por los rotores inversos (3 ? 2 ? 1)
+		// Paso por los rotores inversos 
 		int entrada = caracter - 'A';
 
 		int salida3 = inverso_rotor_tercero[
@@ -98,7 +98,7 @@ void descifrar(int indice_posicion_primero,
 
 		archivo << mensaje_descifrado;
 		archivo.close();
-		std::cout << "[OK] Missatge desxifrat a \"desxifrat.txt\" (" << mensaje_descifrado.length() << " lletres)" << std::endl;
+		std::cout << "[OK] Mensaje descifrado a \"desxifrat.txt\" (" << mensaje_descifrado.length() << " letras)" << std::endl;
 
 	}
 

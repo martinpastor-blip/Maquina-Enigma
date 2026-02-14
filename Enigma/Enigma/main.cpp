@@ -5,6 +5,7 @@
 #include "comprobaciones.h"
 #include "rotor.h"
 #include "descifrar.h"
+#include "editar_rotores.h"
 
 
 
@@ -71,9 +72,14 @@ int main() {
 		}
 		break;
 
-		case 3:  // Editar rotors
+		// Editar rotores
+		case 3: {
 
+			editar_rotor();
 			break;
+
+		}
+
 
 		case 4:  // Saliendo
 			std::cout << "Saliendo..." << std::endl;
