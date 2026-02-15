@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\JosepJoelGuzmanCarba\\Documents\\GitHub\\Maquina-Enigma\\Enigma\\",
+  "WorkspaceRootPath": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\JosepJoelGuzmanCarba\\Documents\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\descifrar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\descifrar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\descifrar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\JosepJoelGuzmanCarba\\Documents\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\comprobaciones.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\comprobaciones.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\JosepJoelGuzmanCarba\\Documents\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\rotor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\rotor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\JosepJoelGuzmanCarba\\Documents\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\descifrar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\descifrar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\descifrar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\JosepJoelGuzmanCarba\\Documents\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\rotor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\rotor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\editar_rotores.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\editar_rotores.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\comprobaciones.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\comprobaciones.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,73 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "editar_rotores.h",
+              "DocumentMoniker": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\editar_rotores.h",
+              "RelativeDocumentMoniker": "Enigma\\editar_rotores.h",
+              "ToolTip": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\editar_rotores.h",
+              "RelativeToolTip": "Enigma\\editar_rotores.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-14T18:48:19.273Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "descifrar.cpp",
-              "DocumentMoniker": "C:\\Users\\JosepJoelGuzmanCarba\\Documents\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\descifrar.cpp",
+              "DocumentMoniker": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\descifrar.cpp",
               "RelativeDocumentMoniker": "Enigma\\descifrar.cpp",
-              "ToolTip": "C:\\Users\\JosepJoelGuzmanCarba\\Documents\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\descifrar.cpp",
+              "ToolTip": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\descifrar.cpp",
               "RelativeToolTip": "Enigma\\descifrar.cpp",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAABIAAAAHAAAA",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-13T11:04:35.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "descifrar.h",
-              "DocumentMoniker": "C:\\Users\\JosepJoelGuzmanCarba\\Documents\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\descifrar.h",
+              "DocumentMoniker": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\descifrar.h",
               "RelativeDocumentMoniker": "Enigma\\descifrar.h",
-              "ToolTip": "C:\\Users\\JosepJoelGuzmanCarba\\Documents\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\descifrar.h",
+              "ToolTip": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\descifrar.h",
               "RelativeToolTip": "Enigma\\descifrar.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-02-13T08:51:00.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "rotor.h",
-              "DocumentMoniker": "C:\\Users\\JosepJoelGuzmanCarba\\Documents\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\rotor.h",
+              "DocumentMoniker": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\rotor.h",
               "RelativeDocumentMoniker": "Enigma\\rotor.h",
-              "ToolTip": "C:\\Users\\JosepJoelGuzmanCarba\\Documents\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\rotor.h",
+              "ToolTip": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\rotor.h",
               "RelativeToolTip": "Enigma\\rotor.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAzAAAA",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-02-09T16:16:51.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "comprobaciones.h",
-              "DocumentMoniker": "C:\\Users\\JosepJoelGuzmanCarba\\Documents\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\comprobaciones.h",
+              "DocumentMoniker": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\comprobaciones.h",
               "RelativeDocumentMoniker": "Enigma\\comprobaciones.h",
-              "ToolTip": "C:\\Users\\JosepJoelGuzmanCarba\\Documents\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\comprobaciones.h",
+              "ToolTip": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\comprobaciones.h",
               "RelativeToolTip": "Enigma\\comprobaciones.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAALAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-02-09T16:16:30.594Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\JosepJoelGuzmanCarba\\Documents\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\main.cpp",
               "RelativeDocumentMoniker": "Enigma\\main.cpp",
-              "ToolTip": "C:\\Users\\JosepJoelGuzmanCarba\\Documents\\GitHub\\Maquina-Enigma\\Enigma\\Enigma\\main.cpp",
+              "ToolTip": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\main.cpp",
               "RelativeToolTip": "Enigma\\main.cpp",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACUAAAAEAAAA",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvx4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-01-15T08:15:19.208Z",
               "EditorCaption": ""

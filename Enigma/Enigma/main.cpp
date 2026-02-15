@@ -25,10 +25,9 @@ int main() {
 		std::cin.ignore(1000, '\n'); // Limpia el buffer para que getline funcione correctamente
 
 		switch (opcion) {
-		case 1:  // Cifrar mensaje
-
-			std::cout << "Funcionalidad de cifrado no implementada aún." << std::endl;
-
+		case 1:  // Cifrar 
+		{
+			
 			std::cout << "Introduce el mensaje a cifrar" << std::endl;
 			std::cin >> mensajeCifrar;
 
@@ -38,7 +37,51 @@ int main() {
 				break;
 			}
 
-			break;
+			std::string posicion_primer_rotor;
+			std::cout << "Indica la posicion del primer rotor A-Z " << std::endl;
+			std::cin>>posicion_primer_rotor;
+
+			std::string posicion_segundo_rotor;
+			std::cout << "Indica la posicion del segundo rotor (A-Z): " << std::endl;
+			std::getline(std::cin, posicion_segundo_rotor);
+
+			std::string posicion_tercer_rotor;
+			std::cout << "Indica la posicion del tercer rotor (A-Z): " << std::endl;
+			std::getline(std::cin, posicion_tercer_rotor);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		}
+
+
+
+
+
+
+
+
+
+
+
 
 		case 2:  // Descifrar mensaje
 
