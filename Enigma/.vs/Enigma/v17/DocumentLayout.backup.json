@@ -3,28 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\descifrar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\descifrar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\descifrar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\descifrar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\rotor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\rotor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\comprobaciones.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\comprobaciones.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\cifrar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\cifrar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\rotor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\rotor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\editar_rotores.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\editar_rotores.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\comprobaciones.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\comprobaciones.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\comprobaciones.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\comprobaciones.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\editar_rotores.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\editar_rotores.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\includes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\includes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\cifrar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\cifrar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\descifrar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\descifrar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\editar_rotores.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB41FF61-F7E0-4C36-B319-5A5489ACAFC6}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\editar_rotores.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +58,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "comprobaciones.cpp",
+              "DocumentMoniker": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\comprobaciones.cpp",
+              "RelativeDocumentMoniker": "Enigma\\comprobaciones.cpp",
+              "ToolTip": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\comprobaciones.cpp",
+              "RelativeToolTip": "Enigma\\comprobaciones.cpp",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-15T09:33:49.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "rotor.cpp",
+              "DocumentMoniker": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\rotor.cpp",
+              "RelativeDocumentMoniker": "Enigma\\rotor.cpp",
+              "ToolTip": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\rotor.cpp",
+              "RelativeToolTip": "Enigma\\rotor.cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-15T09:32:07.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "includes.h",
+              "DocumentMoniker": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\includes.h",
+              "RelativeDocumentMoniker": "Enigma\\includes.h",
+              "ToolTip": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\includes.h",
+              "RelativeToolTip": "Enigma\\includes.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-15T08:31:00.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "cifrar.h",
+              "DocumentMoniker": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\cifrar.h",
+              "RelativeDocumentMoniker": "Enigma\\cifrar.h",
+              "ToolTip": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\cifrar.h",
+              "RelativeToolTip": "Enigma\\cifrar.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-15T08:23:11.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "cifrar.cpp",
+              "DocumentMoniker": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\cifrar.cpp",
+              "RelativeDocumentMoniker": "Enigma\\cifrar.cpp",
+              "ToolTip": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\cifrar.cpp",
+              "RelativeToolTip": "Enigma\\cifrar.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAB8AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-15T08:22:22.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "editar_rotores.cpp",
+              "DocumentMoniker": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\editar_rotores.cpp",
+              "RelativeDocumentMoniker": "Enigma\\editar_rotores.cpp",
+              "ToolTip": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\editar_rotores.cpp",
+              "RelativeToolTip": "Enigma\\editar_rotores.cpp",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-15T08:19:04.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "editar_rotores.h",
               "DocumentMoniker": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\editar_rotores.h",
               "RelativeDocumentMoniker": "Enigma\\editar_rotores.h",
@@ -51,65 +153,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "descifrar.cpp",
               "DocumentMoniker": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\descifrar.cpp",
               "RelativeDocumentMoniker": "Enigma\\descifrar.cpp",
               "ToolTip": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\descifrar.cpp",
               "RelativeToolTip": "Enigma\\descifrar.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACMAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-13T11:04:35.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "descifrar.h",
               "DocumentMoniker": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\descifrar.h",
               "RelativeDocumentMoniker": "Enigma\\descifrar.h",
               "ToolTip": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\descifrar.h",
               "RelativeToolTip": "Enigma\\descifrar.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-02-13T08:51:00.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "rotor.h",
               "DocumentMoniker": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\rotor.h",
               "RelativeDocumentMoniker": "Enigma\\rotor.h",
               "ToolTip": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\rotor.h",
               "RelativeToolTip": "Enigma\\rotor.h",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-02-09T16:16:51.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "comprobaciones.h",
               "DocumentMoniker": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\comprobaciones.h",
               "RelativeDocumentMoniker": "Enigma\\comprobaciones.h",
               "ToolTip": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\comprobaciones.h",
               "RelativeToolTip": "Enigma\\comprobaciones.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-02-09T16:16:30.594Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\main.cpp",
               "RelativeDocumentMoniker": "Enigma\\main.cpp",
               "ToolTip": "C:\\Users\\dawndopiwadawda\\source\\repos\\Enigma\\Enigma\\Enigma\\main.cpp",
               "RelativeToolTip": "Enigma\\main.cpp",
-              "ViewState": "AgIAABYAAAAAAAAAAADwvx4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-01-15T08:15:19.208Z",
               "EditorCaption": ""

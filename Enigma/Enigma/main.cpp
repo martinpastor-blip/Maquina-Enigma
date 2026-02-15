@@ -1,15 +1,14 @@
-#include <iostream>
-#include <fstream>
-#include <string>
+#include "includes.h"
 
 #include "comprobaciones.h"
 #include "rotor.h"
 #include "descifrar.h"
 #include "editar_rotores.h"
-
-
+#include "cifrar.h"
 
 int main() {
+
+
 	while (true) {  // Bucle infinito hasta que se elija salir
 		std::cout << "ENIGMA:" << std::endl;
 		std::cout << "-------------------------------" << std::endl;
@@ -24,10 +23,12 @@ int main() {
 		std::cin >> opcion;
 		std::cin.ignore(1000, '\n'); // Limpia el buffer para que getline funcione correctamente
 
+
+
 		switch (opcion) {
 		case 1:  // Cifrar 
 		{
-			
+
 			std::cout << "Introduce el mensaje a cifrar" << std::endl;
 			std::cin >> mensajeCifrar;
 
@@ -39,7 +40,7 @@ int main() {
 
 			std::string posicion_primer_rotor;
 			std::cout << "Indica la posicion del primer rotor A-Z " << std::endl;
-			std::cin>>posicion_primer_rotor;
+			std::cin >> posicion_primer_rotor;
 
 			std::string posicion_segundo_rotor;
 			std::cout << "Indica la posicion del segundo rotor (A-Z): " << std::endl;
@@ -50,36 +51,21 @@ int main() {
 			std::getline(std::cin, posicion_tercer_rotor);
 
 
+			// Validación
+			if (posicion_primer_rotor.length() != 1 || !esLetraMayuscula(posicion_primer_rotor[0]) ||
+				posicion_segundo_rotor.length() != 1 || !esLetraMayuscula(posicion_segundo_rotor[0]) ||
+				posicion_tercer_rotor.length() != 1 || !esLetraMayuscula(posicion_tercer_rotor[0])) {
+				std::cout << "Error: Cada posicion debe ser exactamente una letra mayúscula." << std::endl;
+				break;
+			}
 
+			int indice_posicion_primero = posicion_primer_rotor[0] - 'A';
+			int indice_posicion_segundo = posicion_segundo_rotor[0] - 'A';
+			int indice_posicion_tercero = posicion_tercer_rotor[0] - 'A';
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+			cifrar(mensajeCifrar, indice_posicion_primero, indice_posicion_segundo, indice_posicion_tercero);
+			break;
 		}
-
-
-
-
-
-
-
-
-
 
 
 
@@ -131,8 +117,8 @@ int main() {
 			std::cout << "Opcion invalida. Intenta de nuevo." << std::endl;
 			break;
 		}
-	}
 
+	}
 	return 0;
 }
 

@@ -1,8 +1,7 @@
-#include <iostream>
-#include <fstream>
-#include <string>
-
+#include "includes.h"
 #include "rotor.h"
+#include "descifrar.h"
+
 
 /**
  * @brief Descifra un mensaje utilizando tres rotores.
@@ -13,9 +12,7 @@
  * rotores deben ser las mismas que se usaron al cifrar.
  */
 
-void descifrar(int indice_posicion_primero,
-	int indice_posicion_segundo,
-	int indice_posicion_tercero) {
+void descifrar(int indice_posicion_primero, int indice_posicion_segundo, int indice_posicion_tercero) {
 
 	//  Lee los archivos de rotor
 	std::string primer_rotor = leerRotor("Rotor1.txt");

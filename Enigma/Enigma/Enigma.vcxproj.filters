@@ -24,6 +24,15 @@
     <ClCompile Include="editar_rotores.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="cifrar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rotor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comprobaciones.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="comprobaciones.h">
@@ -36,6 +45,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="editar_rotores.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cifrar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
